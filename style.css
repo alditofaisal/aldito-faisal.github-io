@@ -1,0 +1,199 @@
+/*.navstyle {
+	height: 90px !important;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    position: relative;
+}
+h1{
+    font-size: clamp(2rem,2vw,4rem);
+}
+/* Navigation Style */
+.nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav .logo {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.nav .menu li {
+    margin-left: 2em;
+}
+
+.nav .menu li a {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.nav .menu ul {
+    margin-left: auto;
+    text-align: center;
+
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    background: #f1f2b5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f1f2b5, #135058); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f1f2b5, #135058);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.home h1 {
+    font-size: clamp(4rem,5vw,15rem);
+    margin-bottom: 2vh;
+}
+
+.home p {
+    font-size: clamp(2rem,2vw,6rem);
+    letter-spacing: 2px;
+}
+.animasinama{
+    animation: fadeAndScale .3s cubic-bezier(.21,.31,.68,1.56);
+    transform-origin: bottom;
+}
+.animasinama1{
+    animation: fadeAndScale 1s cubic-bezier(.88,-0.89,.61,1.84);
+    transform-origin: bottom;
+}
+@keyframes fadeAndScale{
+    from{
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+    }
+    to{
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* About Section */
+.about{
+    display: flex;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #F4F4F4;
+}
+.about p{
+    font-size: clamp(1rem,1vw,3rem);
+    line-height: 2;
+    text-align: justify;
+}
+
+/* Experience Section */
+.experience{
+    display: flex;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.experience p{
+    font-size: clamp(1rem,1vw,3rem);
+}
+
+.project{
+    display: flex;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.project p{
+    font-size: clamp(1rem,1vw,3rem);
+}
+/* resume's link */
+.resume {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(1.25rem,1.5vw,3.25rem);
+}
+.resume:hover{
+    color: #0a57cabb;
+}
+.resume i{
+    color: #0a58ca;
+}
+
+/* Skills Section */
+.skills{
+    display: flex;
+    position: static;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.skills .judul{
+    color: rgba(23, 126, 121, 0.678);
+}
+.skills p{
+    font-size: 20px;
+}
+.skills .container{
+    
+}
+
+/* Contact Section */
+.contact{
+    display: flex;
+    position: static;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+}
+.contact i{
+    color: rgba(23, 126, 121, 0.678);
+    font-size: 20px;
+}
+.contact .deskripsi{
+    font-size: 20px;
+}
+.contact .social{
+    display: flex;
+    margin-bottom: 5%;
+}
+.contact .social a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contact .social i{
+    margin-top: 5vh;
+    font-size: 40px;
+}
+.contact .social i:hover{
+    color: rgba(14, 73, 70, 0.678);
+}
+.email{
+    text-decoration: none;
+} 
+/* footer */
+.footer {
+    position: static;
+    padding: 2rem 0;
+}
+
+.work {
+    padding-top: 20%
+}
